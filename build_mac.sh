@@ -1,0 +1,1 @@
+pyinstaller gui.py --noconsole --windowed  -i icon/NHS\ Icon.icns -n "NHS Management Suite Mac" -y --add-data sfx/*:sfx --add-data /usr/local/lib/python3.7/site-packages/pygsheets/data/*:pygsheets/data

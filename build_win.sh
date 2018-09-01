@@ -1,0 +1,1 @@
+pyinstaller gui.py --onefile --noconsole --windowed  -i icon/NHS\ Icon.ico -n "NHS Management Suite Win" -y --add-data "sfx/*;sfx" --add-data "~/AppData/Local/Programs/Python/Python36/lib/site-packages/pygsheets/data/*;pygsheets/data"
